@@ -1,0 +1,464 @@
+body{
+    padding:0;
+    margin:0;
+    background:#f8f8f8
+}
+
+
+.contact{
+    display:flex;
+    gap:1rem;
+    background:#a5c926;
+    height:40px;
+}
+.number{
+    display:flex;
+    margin-left:60px;
+
+}
+
+.email{
+    display:flex;
+    
+}
+.number,.email{
+    flex-basis:200px;
+}
+.socials{
+    display:flex;
+    margin-left:auto
+}
+
+.socials ul{
+    display:flex;
+    gap:0.5rem;
+    list-style-type: none
+}
+
+.nav-container{
+    display:flex;
+    gap:5rem;
+    box-shadow: 0px 5px 5px black;
+    height:72px;
+    align-items:center
+
+}
+
+.nav-content-1{
+    display:flex;
+    
+}
+.nav-content-1 ul{
+    display:flex;
+    gap:2.5rem;
+    list-style-type: none
+}
+
+.nav-content-2 ul{
+    display:flex;
+    gap:2.5rem;
+    margin-left:580px;
+    list-style-type: none
+
+}
+
+.layer-1{
+    display:flex;
+    text-align:center;
+    height:468px;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://assets.website-files.com/5badda2935e11303a89a461e/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg");
+    background-position-y:40%;
+    background-repeat-y:no-repeat;
+    background-position-x:50%;
+    background-repeat-x:no-repeat;
+    background-size:cover;
+    box-sizing:border-box;
+
+}
+
+.l1-card{
+    display:flex;
+    flex-direction:column;
+    background:white;
+    padding:40px;
+    width:480px;
+    height:150px;
+    border-radius:25px
+}
+
+.l1-title{
+    font-family: 'Varela Round', sans-serif;
+    font-size:16px;
+}
+
+button{
+    background: gray;
+
+    box-shadow: 0px 0px 0px transparent;
+
+    border: 0px solid transparent;
+
+    text-shadow: 0px 0px 0px transparent;
+
+
+    background:#a5c926;
+    color:white;
+    padding:12px 28px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.l2-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5rem;
+    justify-content:center;
+    height:350px;
+    margin-top:150px
+    
+}
+.l2-card-1, .l2-card{
+    display:flex;
+    flex-direction:column;
+    background:white;
+    padding:40px;
+    width:550px;
+    height:150px;;
+    background:  #fb416b;
+    border-radius:25px;
+    justify-content:center;
+
+
+    
+}
+
+.l2-card{
+    background:#ffc12c;
+    align-items:center;
+    box-shadow:1px 2px 0px rgba(0, 0, 0, 0.15);
+    
+}
+
+.l2-title{
+    display:flex;
+    flex:1;
+    margin-left:auto;
+    margin-right:85px;
+    font-family:"Varela Round",sans-serif;
+    align-items:center;
+    
+}
+
+.l2-title-1{
+    display:flex;
+    flex:1;
+    font-family:"Varela Round",sans-serif;
+    align-items:center;
+    justify-content:center;
+    margin-right:150px;
+}
+
+.l2-button button{
+    display:flex;
+    background:white;
+    color:black;
+}
+
+.l2-button-1 button{
+    display:flex;
+    background:white;
+    color:black;
+    margin-left:auto;
+    margin-right:250px;
+}
+
+.l3-title-container{
+    display:flex;
+    flex-direction:row;
+    gap:5rem;
+    align-item:center;
+    
+}
+
+.title{
+    font-family:"Arial",sans-serif;
+    font-size:32px;
+    margin-left:54px;
+
+
+}
+.see-all{
+    margin-top: 28px;
+    font-family:"Arial",sans-serif;
+    margin-left:auto;
+    margin-right:70px
+
+}
+
+
+.seperation{
+    
+    background-color:grey;
+    height:2px;
+    margin:48px;
+    margin-top:5px
+}
+
+
+.l3-card-container{
+    display:flex;
+    
+    gap:5rem;
+    align-items:center;
+    justify-content:center;
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom:150px
+}
+
+.l3-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:white;
+    border-radius:16px;
+    box-shadow:1px 2px 0px rgba(0, 0, 0, 0.15);
+    width:400px;
+    height:350px;
+    padding:24px
+}
+
+
+
+.layer-5{
+    background-image: url('https://assets.website-files.com/5badda2935e11303a89a461e/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg');
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .l5-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:100px
+  }
+
+  .l5-title{
+    font-family: 'Varela Round', sans-serif;
+    color:white;
+
+  }
+
+  .l5-sub{
+    font-family: 'Varela Round', sans-serif;
+    color:white;
+    
+
+
+  }
+
+  .l5-content{
+    font-family: 'Varela Round', sans-serif;
+    color:white;
+    font-size:14px;
+
+
+  }
+
+.l6-header{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    font-family: 'Varela Round', sans-serif;
+    padding:50px;
+    
+}
+
+.l6-card-container{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5rem;
+    
+}
+
+.l6-card,.l6-card-1{
+    display:flex;
+    background:#f8f8f8;
+    width:600px;
+    
+    height: 500px;
+    justify-content:center;
+    align-items:center;
+    border-radius:16px;
+    
+
+}
+
+.l6-card-1{
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5bb5c77ee73150e2021b0db4_side-image-01.jpg");
+    background-size: cover;
+}
+
+.l6-title{
+    font-family: 'Varela Round', sans-serif;
+    padding:12px
+}
+
+.l6-content{
+    font-family: 'Varela Round', sans-serif;
+    padding:12px
+}
+
+.l6-button-right{
+    padding:12px;
+}
+
+.l6-card-2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:150px;
+    background:white;
+    border-radius:16px;
+    padding:48px;
+    gap:5rem;
+    align-items:center;
+}
+
+.card-r-1, .card-l-1{
+    display:flex;
+    gap:2rem;
+    
+}
+
+.card-r-content{
+    font-family: 'Varela Round', sans-serif;
+}
+
+input{
+    border-radius:25px;
+    padding:12px;
+    width:250px
+    
+}
+
+.l7-title{
+    text-align:center;
+    font-family: 'Varela Round', sans-serif;
+    margin:48px
+
+}
+
+
+.l7-container{
+    display:flex;
+    flex-direction:row;
+    margin:100px;
+    justify-content:center;
+    gap:2rem;
+}
+
+.l7-card{
+    background:white;
+    width:200px;
+    height:200px;
+    border-radius:16px;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5badecf79395558fbeb88a49_instagram-01.jpg");
+    background-size: cover;
+}
+
+.l7-card-1{
+    background:white;
+    width:200px;
+    height:200px;
+    border-radius:16px;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5badecf735e113f8679a57e6_instagram-02.jpg");
+    background-size: cover;
+}
+
+.l7-card-2{
+    background:white;
+    width:200px;
+    height:200px;
+    border-radius:16px;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5badecf735e11327b99a57e7_instagram-03.jpg");
+    background-size: cover;
+}
+
+.l7-card-3{
+    background:white;
+    width:200px;
+    height:200px;
+    border-radius:16px;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5badecf7939555df08b88a48_instagram-04.jpg");
+    background-size: cover;
+}
+
+.l7-card-4{
+    background:white;
+    width:200px;
+    height:200px;
+    border-radius:16px;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5badecf7939555514eb88a4a_instagram-05.jpg");
+    background-size: cover;
+}
+
+.l7-card-5{
+    background:white;
+    width:200px;
+    height:200px;
+    border-radius:16px;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5badecf71f2da2228d17155f_instagram-06.jpg");
+    background-size: cover;
+}
+
+
+.l7-button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.l7-button,button{
+    padding:18px;
+    
+}
+
+.footer {
+    background:#a5c926;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:150px;
+
+}
+
+.footer ul {
+    display:flex;
+    gap:1rem;
+    list-style-type: none;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.pages{
+    display:flex;
+    
+    margin-left:450px
+}
+
+.f-container{
+
+}
